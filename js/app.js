@@ -96,7 +96,6 @@ function displayEmployees(employees){
  *@param {object} An employee object
  */
 function displayModal(employee){
-	console.log('click ', employee);
 	const bdaylong = new Date(employee.dob.date);
 	const birthday = `${bdaylong.getMonth()}/${bdaylong.getDate()}/${bdaylong.getFullYear()}`;
 	modal.style.display = 'block';
