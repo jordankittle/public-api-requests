@@ -140,6 +140,11 @@ function displayModal(employee){
 
 }
 
+
+/**
+ *Returns the index of the currently displayed employee
+ *@return {number} The index of the currently displayed employee
+ */
 function getModalIndex(){
 	let index;
 	const currentEmployee = modal.querySelector('#name').textContent;
@@ -152,6 +157,10 @@ function getModalIndex(){
 	return index;
 }
 
+/**
+ *Handles a click on the modal
+ *Closes or navigates employees in the modal box
+ */
 function modalClick(event){
 		const index = getModalIndex();
 		const previousButton = modal.querySelector('#modal-prev');

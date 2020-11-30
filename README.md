@@ -4,7 +4,7 @@
 
 Changes:
 
-1.) Changed body background color to rgba(203, 223, 228, .02).
+1.) Changed body background color to rgba(191, 191, 191, 0.02).
 2.) Changed Card title colors to rgb(13, 121, 160).
 3.) Changed modal and modal button container background to rgba(252, 252, 252, 1) for something very slightly off of white.
 4.) Added box-shadow: 1px 3px 10px rgba(0,0,0,.5) to modal images for depth.
